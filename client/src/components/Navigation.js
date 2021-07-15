@@ -8,6 +8,7 @@ import {
   NavItem,
   Container,
   NavbarText,
+  NavLink,
 } from 'reactstrap'
 import RegisterModal from './auth/RegisterModal'
 import Logout from './auth/Logout'
@@ -63,6 +64,14 @@ const Navigation = () => {
                 : user && auth.isAuthenticated
                 ? userLinks
                 : guessLinks}
+              <NavItem>
+                <NavLink
+                  href="https://github.com/srhqmp/my-list"
+                  target={'_blank'}
+                >
+                  View Code
+                </NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Container>
