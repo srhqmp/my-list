@@ -9,7 +9,7 @@
 
   <div align="center">
     <a href="https://my-list-by-srhqmp.herokuapp.com/">
-    <img src="img/img-1.png" alt="project image" width="500" height="auto">
+    <img src="./img/img-1.PNG" alt="project image" width="500" height="auto">
   </a>
   </div>
 </p>
